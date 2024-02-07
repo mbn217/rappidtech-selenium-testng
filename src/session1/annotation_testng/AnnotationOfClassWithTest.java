@@ -1,24 +1,22 @@
-package session1;
+package session1.annotation_testng;
 
 
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestNGDemo {
-
-    //IDE Eclipse  -- You have to download a testng plugin
-    //IDE IntellJ -- Does have the plugin out of the box
+public class AnnotationOfClassWithTest {
 
 
+
+    @BeforeMethod
     void greeting(){
         System.out.print("Mohamed ");
     }
-
     @Test
     void greeting2(){
         greeting();
         System.out.println("Good morning");
     }
-
     @Test
     void greeting3(){
         System.out.println("Good night");
