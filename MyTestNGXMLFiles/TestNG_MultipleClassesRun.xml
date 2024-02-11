@@ -4,7 +4,7 @@
     <test name="THis is my test">
         <classes>
             <class name="session3.XMLFileTest"></class>
-            <class name="session3.TestNgTimeOutAttribute"></class>
+            <class name="session3.attributes.TestNgTimeOutAttribute"></class>
         </classes>
     </test>
 </suite>

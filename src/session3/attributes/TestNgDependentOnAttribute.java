@@ -1,4 +1,4 @@
-package session3;
+package session3.attributes;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

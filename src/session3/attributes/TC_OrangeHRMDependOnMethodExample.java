@@ -1,4 +1,4 @@
-package session3;
+package session3.attributes;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +9,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TC_OrangeHRMDependOnmethod {
+public class TC_OrangeHRMDependOnMethodExample {
 
     WebDriver driver;
 
